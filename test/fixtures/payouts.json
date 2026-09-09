@@ -1,0 +1,50 @@
+[
+  {
+    "id": 746342,
+    "vl_kota_membro": 8.33,
+    "descricao": "Grupo Google One",
+    "usuarioId": "bfbce9db-70be-cc98-f5c7-5b1b36cdecab",
+    "valor4Casas": 33.32,
+    "valorFormatado": "R$ 33,32",
+    "statusId": 4,
+    "status": "Agendado",
+    "dataProximoPagamento": "2026-09-21T00:00:00",
+    "dataProximoPagamentoFormatada": "21/09/2026"
+  },
+  {
+    "id": 888139,
+    "vl_kota_membro": 5.82,
+    "descricao": "Grupo Spotify",
+    "usuarioId": "bfbce9db-70be-cc98-f5c7-5b1b36cdecab",
+    "valor4Casas": 11.64,
+    "valorFormatado": "R$ 11,64",
+    "statusId": 4,
+    "status": "Agendado",
+    "dataProximoPagamento": "2026-10-09T00:00:00",
+    "dataProximoPagamentoFormatada": "09/10/2026"
+  },
+  {
+    "id": 261312,
+    "vl_kota_membro": 6.98,
+    "descricao": "Grupo Youtube Premium",
+    "usuarioId": "bfbce9db-70be-cc98-f5c7-5b1b36cdecab",
+    "valor4Casas": 27.92,
+    "valorFormatado": "R$ 27,92",
+    "statusId": 55,
+    "status": "Cancelado",
+    "dataProximoPagamento": null,
+    "dataProximoPagamentoFormatada": ""
+  },
+  {
+    "id": 995144,
+    "vl_kota_membro": 9.3,
+    "descricao": "Grupo HBO Max",
+    "usuarioId": "bfbce9db-70be-cc98-f5c7-5b1b36cdecab",
+    "valor4Casas": 18.6,
+    "valorFormatado": "R$ 18,60",
+    "statusId": 55,
+    "status": "Cancelado",
+    "dataProximoPagamento": null,
+    "dataProximoPagamentoFormatada": ""
+  }
+]
