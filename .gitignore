@@ -1,0 +1,12 @@
+node_modules/
+dist/
+
+# Single-binary build artifacts
+/kotas
+/kotas-*
+
+# Private planning artifacts: the spec and the steps carry real account data
+task/
+
+# Local Claude Code settings
+.claude/settings.local.json
