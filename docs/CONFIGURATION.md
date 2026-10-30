@@ -13,7 +13,7 @@ Tudo vem do ambiente, com prefixo `KOTAS_`. Nenhum arquivo `.env` é lido.
 | `KOTAS_COMPACT` | `0` | Respostas mínimas por padrão |
 | `KOTAS_EMAIL` | — | Bootstrap do `login`. Nunca é gravado |
 | `KOTAS_SENHA` (ou `KOTAS_PASSWORD`) | — | Bootstrap do `login`. Nunca é gravada |
-| `KOTAS_IMPORT_BROWSER` | — | `arc`, `chrome`, `chromium`, `brave` ou `edge` |
+| `KOTAS_IMPORT_BROWSER` | — | `dia`, `arc`, `chrome`, `chromium`, `brave` ou `edge` |
 | `KOTAS_APP_VERSION` | `1.127.0.0` | Header `versao` |
 | `KOTAS_API_TOKEN` | chave do front | Chave estática da API, igual para todos |
 | `KOTAS_MIN_INTERVAL_MS` | `300` | Intervalo mínimo entre requisições |

@@ -44,7 +44,7 @@ Salva uma sessão do Kotas em disco, cifrada. Três caminhos: e-mail e senha (`e
 | `email` | string (min 3 chars) | — | E-mail da conta Kotas |
 | `password` | string (min 1 chars) | — | Senha; usada uma vez, nunca gravada |
 | `pin` | string (`^\d{4,8}$`) | — | Código de 6 dígitos da verificação em duas etapas |
-| `from_browser` | `arc` \| `chrome` \| `chromium` \| `brave` \| `edge` | — | Importa a sessão do localStorage deste navegador (macOS) |
+| `from_browser` | `dia` \| `arc` \| `chrome` \| `chromium` \| `brave` \| `edge` | — | Importa a sessão do localStorage deste navegador (macOS) |
 | `tokens` | object | — | Sessão colada à mão, do DevTools do navegador |
 
 ## `doctor`

@@ -57,7 +57,7 @@ export async function runCli(argv: string[], version: string): Promise<void> {
     .option("-e, --email <email>", "E-mail da conta")
     .option("-p, --password <senha>", "Senha (ou defina KOTAS_SENHA)")
     .option("--pin <codigo>", "Código de 6 dígitos da verificação em duas etapas")
-    .option("--from-browser <navegador>", "arc | chrome | chromium | brave | edge")
+    .option("--from-browser <navegador>", "dia | arc | chrome | chromium | brave | edge")
     .option("--paste", "Cola os três valores do localStorage pela entrada padrão")
     .action((flags: Record<string, string | boolean | undefined>) =>
       withCtx(async (ctx, options) => {

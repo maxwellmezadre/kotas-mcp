@@ -21,7 +21,7 @@ fica em disco são os dois tokens e o identificador do dispositivo.
 ## Import do navegador
 
 ```sh
-kotas login --from-browser chrome     # arc | chrome | chromium | brave | edge
+kotas login --from-browser chrome     # dia | arc | chrome | chromium | brave | edge
 ```
 
 O Kotas guarda a sessão no `localStorage` de `app.kotas.com.br`, não em cookie:

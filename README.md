@@ -127,7 +127,7 @@ quanto pago em cada uma?"*, *"quanto vou receber como administrador este mês?"*
 | `KOTAS_READ_ONLY` | `0` | Não registra `login`, `sync` e `export` |
 | `KOTAS_COMPACT` | `0` | Respostas mínimas por padrão, para economizar contexto |
 | `KOTAS_EMAIL` / `KOTAS_SENHA` | — | Só para o bootstrap do `login`; nunca são gravadas |
-| `KOTAS_IMPORT_BROWSER` | — | `arc` \| `chrome` \| `chromium` \| `brave` \| `edge` |
+| `KOTAS_IMPORT_BROWSER` | — | `dia` \| `arc` \| `chrome` \| `chromium` \| `brave` \| `edge` |
 | `KOTAS_APP_VERSION` | `1.127.0.0` | Header `versao`; se a API responder 426, atualize |
 | `KOTAS_API_TOKEN` | (chave do front) | Chave estática da API, igual para todo mundo |
 | `KOTAS_MIN_INTERVAL_MS` | `300` | Intervalo mínimo entre requisições |

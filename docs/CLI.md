@@ -8,7 +8,7 @@ devolve. Sem ele, a saída é uma tabela legível.
 ```sh
 kotas status [--verify]
 kotas login [--email …] [--password …] [--pin 123456]
-kotas login --from-browser chrome|arc|chromium|brave|edge
+kotas login --from-browser chrome|dia|arc|chromium|brave|edge
 kotas login --paste
 kotas doctor [--shallow]
 ```

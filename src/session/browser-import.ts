@@ -25,6 +25,7 @@ export const STORAGE_KEYS = {
 } as const;
 
 const LOCATIONS: Record<ImportBrowser, { label: string; dir: string }> = {
+  dia: { label: "Dia", dir: "Dia/User Data" },
   arc: { label: "Arc", dir: "Arc/User Data" },
   chrome: { label: "Google Chrome", dir: "Google/Chrome" },
   chromium: { label: "Chromium", dir: "Chromium" },

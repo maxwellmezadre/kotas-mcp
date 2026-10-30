@@ -9,7 +9,7 @@ import { Value } from "@sinclair/typebox/value";
 // the raw strings.
 
 /** Chromium-based browsers whose localStorage can be imported (macOS). */
-export const IMPORT_BROWSERS = ["arc", "chrome", "chromium", "brave", "edge"] as const;
+export const IMPORT_BROWSERS = ["dia", "arc", "chrome", "chromium", "brave", "edge"] as const;
 export type ImportBrowser = (typeof IMPORT_BROWSERS)[number];
 
 /** The only backend the MCP needs (spec §1). */
@@ -48,6 +48,7 @@ export const ConfigSchema = Type.Object({
   /** When set, `login` imports the session from this browser instead of asking for a password. */
   importBrowser: Type.Optional(
     Type.Union([
+      Type.Literal("dia"),
       Type.Literal("arc"),
       Type.Literal("chrome"),
       Type.Literal("chromium"),
